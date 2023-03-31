@@ -5,6 +5,7 @@ H2 Db --> spring.h2.console.enabled=true
 spring.datasource.url=jdbc:h2:mem:testdb
 
 ![image](https://user-images.githubusercontent.com/91777037/229008958-352ce168-4943-4d33-81e2-e6ccf133f603.png)
+
 create table course(
 	id bigint not null,
 	name varchar(255) not null,
